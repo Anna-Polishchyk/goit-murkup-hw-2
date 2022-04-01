@@ -1,3 +1,69 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --background-white-color: #FFFFFF;
+}
+
 body {
-    background-color: tomato;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+.site-nav {
+    color:var(--primary-text-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: var(--secondary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--background-white-color);
+}
+.description {
+    color: var(--secondary-text-color);
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.address .link {
+    color: var(--background-white-color);
+}
+.footer .contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+??????
+.footer .link .logo {
+    color: var(--accent-color);
 }
