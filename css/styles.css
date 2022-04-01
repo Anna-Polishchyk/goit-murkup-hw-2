@@ -30,6 +30,9 @@ body {
 .site-nav .studio {
     color: var(--primary-text-color);
 }
+.site-nav .link:active {
+    color: var(--accent-color);
+}
 .link {
     text-decoration: none;
     color: var(--primary-text-color);
