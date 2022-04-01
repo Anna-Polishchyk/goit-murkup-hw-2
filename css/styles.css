@@ -8,9 +8,7 @@
 body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
-    position: relative;
-    width: 1600px;
-    height: 2349px;
+    font-family: Roboto; sans-serif;
 }
 
 .list {
@@ -18,12 +16,20 @@ body {
 }
 
 .logo {
+    font-family: Raleway;
     color: var(--accent-color);
+    text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+
 }
 .site-nav {
     color:var(--primary-text-color);
 }
-
+.site-nav .studio {
+    color: var(--primary-text-color);
+}
 .link {
     text-decoration: none;
     color: var(--primary-text-color);
@@ -56,8 +62,11 @@ body {
 .footer {
     background-color: #2F303A;
 }
-
+.footer .studio {
+    color:var(--background-white-color);
+}
 .address .link {
+    font-style: normal;
     color: var(--background-white-color);
 }
 .footer .contacts {
