@@ -24,13 +24,6 @@ body {
 .logo:focus {
 
 }
-.site-nav {
-    color:var(--primary-text-color);
-}
-.site-nav .studio {
-    color: var(--primary-text-color);
-}
-
 .link {
     text-decoration: none;
     color: var(--primary-text-color);
@@ -39,6 +32,14 @@ body {
 .link:hover,
 .link:focus {
     color: var(--accent-color);
+}
+
+/* Site navigation */
+.site-nav {
+    color:var(--primary-text-color);
+}
+.site-nav .studio {
+    color: var(--primary-text-color);
 }
 
 .contacts .link {
@@ -50,16 +51,20 @@ body {
     color: var(--accent-color);
 }
 
+/* Hero */
 .hero {
     background-color: #2F303A;
 }
 .hero-title {
     color: var(--background-white-color);
 }
+
+/* Main content */
 .description {
     color: var(--secondary-text-color);
 }
 
+/* footer */
 .footer {
     background-color: #2F303A;
 }
