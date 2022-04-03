@@ -58,8 +58,20 @@ body {
 .hero-title {
     color: var(--background-white-color);
 }
+.button {
+    color: var(--primary-text-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover {
+    color:var(--background-white-color);
+    background-color: var(--accent-color);
+}
 
 /* Main content */
+.hiden {
+    visibility: hidden;
+}
 .description {
     color: var(--secondary-text-color);
 }
