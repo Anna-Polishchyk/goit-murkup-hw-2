@@ -45,8 +45,14 @@ body {
 .site-nav .studio {
     color: var(--primary-text-color);
 }
+
+.current {
+    color: var(--accent-color);
+    text-decoration: none;
+}
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.current {
     color: var(--accent-color);
 }
 .contacts {
@@ -102,7 +108,16 @@ body {
 
 /* Main content */
 .hiden {
-    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: 1px;
 }
 /* our advantage */
 
