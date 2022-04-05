@@ -42,6 +42,9 @@ body {
 /* Site navigation */
 .site-nav {
     color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
 }
 .site-nav .studio {
     color: var(--primary-text-color);
@@ -58,6 +61,9 @@ body {
 }
 .contacts {
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
 }
 .contacts .link {
     color: var(--secondary-text-color);
@@ -89,6 +95,9 @@ body {
     background-color: #F5F4FA;
     cursor: pointer;
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .button:hover {
     color:var(--background-white-color);
@@ -145,7 +154,7 @@ body {
     text-align: center;
 }
 /* our team */
-.our-tean-section {
+.our-team-section {
     background-color: #F5F4FA;
 }
 .card-title {
@@ -180,6 +189,10 @@ body {
 .footer-contacts .link {
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+    color: var(--secondary-accent-color);
+}
 
 .footer .logo {
     color: var(--accent-color);
@@ -190,8 +203,27 @@ body {
     font-size: 16px;
     line-height: 1.62;
 }
+.projects-filter .current {
+    color: var(--background-white-color);
+    background-color: var(--accent-color);
+    
+}
 .project-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+}
+
+.projects .link:hover, .link:focus {
+    color: var(--primary-text-color);
+} 
+.card {
+    background-color: var(--background-white-color);
+width: 270px;
+height: 368px;
+left: 1115px;
+top: 1635px;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
