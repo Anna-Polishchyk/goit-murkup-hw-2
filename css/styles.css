@@ -179,12 +179,12 @@ body {
 .address .link {
     font-style: normal;
     color: var(--background-white-color);
-}
-.footer-contacts {
-    color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}
+.map .link:focus {
+    color: var(--background-white-color);
 }
 .footer-contacts .link {
     color: rgba(255, 255, 255, 0.6);
